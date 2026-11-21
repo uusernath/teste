@@ -1,0 +1,75 @@
+.imagem {
+  width: 65%;
+  height: 500px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+.body{
+background-color: rgb(232, 246, 255);
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.card {
+    width: 100% !important;
+    border: 2px solid rgb(42, 75, 142) !important;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.btn-saiba-mais {
+    background-color: rgb(42, 75, 142) !important;
+    border: 1px solid rgb(42, 75, 142) !important;
+    color: white !important;
+}
+.btn-saiba-mais:hover {
+    background-color: rgb(176, 196, 222) !important;
+    color: rgb(42, 75, 142) !important;
+}
+.carousel-control-prev-icon{
+filter: brightness(0) saturate(100%)
+            invert(10%) sepia(70%)
+            saturate(2500%) hue-rotate(190deg)
+            brightness(85%) contrast(105%);
+}
+.carousel-control-next-icon{
+filter: brightness(0) saturate(100%)
+            invert(10%) sepia(70%)
+            saturate(2500%) hue-rotate(190deg)
+            brightness(85%) contrast(105%);
+}
+h1{
+    color: rgb(42, 75, 142);
+    display: block;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.texto{
+    color:rgb(42, 75, 142);
+    margin-left: 70px;
+    margin-right: 60px;
+ }
+ .nav-tabs .nav-link {
+    color: rgb(42, 75, 142) !important;
+}
+
+.nav-tabs .nav-link:hover {
+    color: rgb(42, 75, 142) !important;
+    background-color: rgba(42, 75, 142, 0.288);
+}
+
+.nav-tabs .nav-link.active {
+    color: #191970 !important;
+    background-color:rgb(176, 196, 222) !important ;
+    border-color: #dee2e6 #dee2e6 #ffffff;
+}
+.footer{
+    background-color: rgb(62, 96, 163);
+    height: 50px;
+    text-align: center;
+    ;
+}
